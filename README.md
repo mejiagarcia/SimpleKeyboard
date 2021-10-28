@@ -1,3 +1,15 @@
 # SimpleKeyboard
 
-A description of this package.
+How to use it?
+
+```swift
+import SimpleKeyboard
+
+class MyViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        supportFlexibleLayout()
+    }
+}
+
+```
